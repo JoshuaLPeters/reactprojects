@@ -13,6 +13,7 @@ function Person(props){
 
 let root = (
     <div>
+        <Person name="Kyle" age="40"/>
         <Person name="Josh" age="32"/>
         <Person name="Nick" age="30"/>
         <Person name="Jonah" age="16"/>
