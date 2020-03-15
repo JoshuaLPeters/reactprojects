@@ -29,25 +29,48 @@
 
 // JavaScript Classes - First example of Object Oriented JavaScript
 
-class Human {
-    constructor() {
-        this.gender = 'male';
-    }
-    printGender(){
-        console.log(this.gender);
-    }
+// class Human {
+//     constructor() {
+//         this.gender = 'male';
+//     }
+//     printGender(){
+//         console.log(this.gender);
+//     }
+//
+// }
+// class Person extends Human{
+//     constructor() {
+//         super();
+//         this.name = 'Max';
+//     }
+//
+//     printMyName(){
+//         console.log(this.name);
+//     }
+// }
+// const person = new Person();
+// person.printMyName();
+// person.printGender();
 
-}
-class Person extends Human{
-    constructor() {
-        super();
-        this.name = 'Max';
-    }
+// Spread and Rest Operators
+// Spread used to split up array elements OR object properties
+// Rest Used to merge a list of function arguments into an array
 
-    printMyName(){
-        console.log(this.name);
-    }
-}
-const person = new Person();
-person.printMyName();
-person.printGender();
+const numbers = [1, 2, 3];
+const newNumbers = [...numbers, 4];
+console.log(newNumbers);
+
+const person = {
+    name: 'Max'
+};
+
+const newPerson = {
+    ...person,
+    age: 28
+};
+console.log(newPerson);
+
+const filter = (...args) => {
+    return args.filter(el => el === 1);
+};
+console.log(filter(1,2,3));
