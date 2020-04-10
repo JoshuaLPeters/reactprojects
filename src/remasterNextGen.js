@@ -82,24 +82,24 @@
 // console.log(num1, num3);
 
 // Review Reference and Primative types
-const number = 1;
-const num2 = number; // this copies the number 1 since you are copying the value
-
-
-// Objects and arrays are reference types; copying the pointer
-const person = {
-    name:'Max'
-};
-
-const secondPerson = person;
-person.name = 'Manu';
-console.log(secondPerson);
-
-// Array function review
-const numbers = [1, 2, 3];
-const doubleNumArray = numbers.map((num) => {
-    return num * 2;
-    // returns 2, 4, and 6 as a new array
-});
-console.log(numbers);
-console.log(doubleNumArray);
+// const number = 1;
+// const num2 = number; // this copies the number 1 since you are copying the value
+//
+//
+// // Objects and arrays are reference types; copying the pointer
+// const person = {
+//     name:'Max'
+// };
+//
+// const secondPerson = person;
+// person.name = 'Manu';
+// console.log(secondPerson);
+//
+// // Array function review
+// const numbers = [1, 2, 3];
+// const doubleNumArray = numbers.map((num) => {
+//     return num * 2;
+//     // returns 2, 4, and 6 as a new array
+// });
+// console.log(numbers);
+// console.log(doubleNumArray);

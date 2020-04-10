@@ -18,6 +18,8 @@ let root = (
         <Person name="Nick" age="30"/>
         <Person name="Jonah" age="16"/>
         <Person name="Caleb" age="18"/>
+        <Person name="Kristin" age="49"/>
+        <Person name="Kirk" age="50"/>
     </div>
 );
 
